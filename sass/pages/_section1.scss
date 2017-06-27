@@ -1,1 +1,37 @@
-_section1.scss
+
+.detail-page {
+	float:left;
+	margin:8px;
+	width:82%;
+}
+.section1 {
+	.dashboard-version{
+		float:left;
+		padding:5px;
+		span {
+			color:darkgrey;
+			margin-left:10px;
+		}
+		h3 {
+			float:left;
+		}
+	}
+
+	.home-dashboard {
+		float:right;
+		margin-right:10px;
+		padding:5px;
+		font-size:13px;
+		.dashboard {
+			color:darkgrey;
+			margin-left:10px;
+		}
+		.fa-angle-right {
+			color:darkgrey;
+			margin-left:10px;
+		}
+		.home {
+			margin-left:5px;
+		}
+	}
+}
