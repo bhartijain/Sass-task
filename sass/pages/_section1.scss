@@ -2,9 +2,12 @@
 .detail-page {
 	float:left;
 	margin:8px;
-	width:82%;
+	width:83.3%;
+
 }
 .section1 {
+	overflow:hidden;
+	width:100%;
 	.dashboard-version{
 		float:left;
 		padding:5px;
