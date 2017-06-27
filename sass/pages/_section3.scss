@@ -1,0 +1,100 @@
+.section3 {
+	background-color:white;
+	margin-top:10px;
+	padding:5px;
+	.section3-header {
+		h3 {
+			display:inline-block;
+		}
+		div{
+			float:right;
+			color:lightgrey;
+			margin-right:10px;
+			.fa {
+				margin-right:15px;
+				margin-top:3px;
+			}
+		}
+	}
+
+	.content {
+		margin-top:8px;
+	}
+	.graph {
+		width:60%;
+		display:inline-block;
+		h5 {
+			text-align:center;
+		}
+		img {
+			width:100%;
+		}
+	}
+
+	.graph-detail {
+		width:35%;
+		float:right;
+		.goal {
+			text-align:center;
+		}
+		.product-detail {
+			margin-top:7px;
+			.score {
+				display:inline-block;
+			}
+			.name {
+				width:86%;
+				display:inline-block;
+			}
+			.bar {
+				width:99%;
+				height:10px;
+				background-color:grey;
+				.color{
+					width:80%;
+					height:10px;
+				}
+				.skyblue{
+					background-color:skyblue;
+				}
+				.red {
+					background-color:red;
+				}
+				.green {
+					background-color:green;
+				}
+				.orange {
+					background-color:orange;
+				}
+			}
+		}
+		.other-detail {
+			margin-top:17px;
+		}
+
+	}
+
+	.section3-footer {
+		width:100%;
+		div{
+			display: inline-block;
+		    width: 24.5%;
+		    text-align: center;
+		    padding: 10px 0px 10px 0px;
+		    border: 1px solid;
+		    .skyblue {
+		    	color:skyblue;
+		    }
+		    .orange {
+		    	color:orange;
+		    }
+		    .green{
+		    	color:green;
+		    }
+		    .red{
+		    	color:red;
+		    }
+		}
+	}
+
+}
