@@ -13,9 +13,19 @@
 			<i class="fa fa-bars" aria-hidden="true"></i>
 			<div class="navbar-item">
 				<ul class="navbar-item-list">
-					<li><i class="fa fa-envelope-o" aria-hidden="true"></i></li>
-					<li><i class="fa fa-bell-o" aria-hidden="true"></i></li>
-					<li><i class="fa fa-flag-o" aria-hidden="true"></i></li>
+					<li>
+						<i class="fa fa-envelope-o" aria-hidden="true"></i>
+						<span class="bg-green notification-box">4</span>
+					</li>
+					<li>
+						<i class="fa fa-bell-o" aria-hidden="true"></i>
+						<span class="bg-orange notification-box">14</span>
+					</li>
+					<li>
+						<i class="fa fa-flag-o" aria-hidden="true">						
+						</i>
+						<span class="bg-red notification-box">14</span>
+					</li>
 					<li class="header-img"><img src = "img/mini.gif"></li>
 					<li><span>Bharti Jain</span></li>
 					<li><i class="fa fa-share-alt" aria-hidden="true"></i></li>
@@ -267,7 +277,7 @@
 			<div class="section4">
 				<div class="map-detail bg-white">
 					<div class="map-header">
-						<h3>Visitors Report</h3>
+						<h3 class="text-grey">Visitors Report</h3>
 						<div class="cross-icon">
 							<i class="fa fa-minus" aria-hidden="true"></i>
 							<i class="fa fa-times" aria-hidden="true"></i>
@@ -299,43 +309,55 @@
 					</div>
 				</div>
 				<div class="analysis">
-					<div class="analysis-item bg-orange">
+					<div class="analysis-item bg-orange bottom-space">
 						<div class="analysis-icon darkorange">
 							<i class="fa fa-tag" aria-hidden="true"></i>
 						</div>
 						<div class="item-detail">
 							<h5> INVENTORY</h5>
 							<h5>5,2000</h5>
+							<div class="progress-bar">
+								<div class=" bar inventory-bar"></div>
+							</div>
 							<h5>50% income in 50 days</h5>
 						</div>
 					</div>
-					<div class="analysis-item bg-green">
+					<div class="analysis-item bg-green bottom-space">
 						<div class="analysis-icon darkgreen">
-							<i class="fa fa-tag" aria-hidden="true"></i>
+							<i class="fa fa-heart-o" aria-hidden="true"></i>
 						</div>
 						<div class="item-detail">
 							<h5> Mention</h5>
 							<h5>5,2000</h5>
+							<div class="progress-bar">
+								<div class=" bar mention-bar"></div>
+							</div>
 							<h5>50% income in 50 days</h5>
 						</div>
 					</div>
-					<div class="analysis-item bg-red">
+					<div class="analysis-item bg-red bottom-space">
 						<div class="analysis-icon darkred">
-							<i class="fa fa-tag" aria-hidden="true"></i>
+							<i class="fa fa-cloud-download" aria-hidden="true"></i>
 						</div>
 						<div class="item-detail">
 							<h5> Download</h5>
 							<h5>5,2000</h5>
+							<div class="progress-bar">
+								<div class=" bar download-bar"></div>
+							</div>
 							<h5>50% income in 50 days</h5>
 						</div>
 					</div>
-					<div class="analysis-item bg-skyblue">
+					<div class="analysis-item bg-skyblue bottom-space">
 						<div class="analysis-icon darkskyblue">
-							<i class="fa fa-tag" aria-hidden="true"></i>
+							<i class="fa fa-comment-o" aria-hidden="true"></i>
 						</div>
 						<div class="item-detail">
 							<h5> DIRECT MESSAGE</h5>
 							<h5>5,2000</h5>
+							<div class="progress-bar">
+								<div class=" bar direct-bar"></div>
+							</div>
 							<h5>50% income in 50 days</h5>
 						</div>
 					</div>

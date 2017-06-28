@@ -16,6 +16,10 @@
 		.cross-icon {
 			color:grey;
 			float: right;
+			margin-right:15px;
+			.fa {
+				margin-right:10px;
+			}
 		}
 	}
 
@@ -26,7 +30,7 @@
 			width:74.5%;
 			img {
 				width:100%;
-				height:250px;
+				height:345px;
 			}
 		}	
 
@@ -38,7 +42,10 @@
 				padding:5px;
 				li {
 					text-align: center;
-					padding:15px 0px 15px 0px;
+					padding:20px 0px 20px 0px;
+					.fa {
+						font-size:40px;
+					}
 				}
 			}
 		}
@@ -49,22 +56,53 @@
 .analysis {
 	width:35%;
 	float:right;
+	.bottom-space {
+		margin-bottom:20px;
+	}
 	.analysis-item {
 		display:inline-block;
 		width:100%;
+
 		.analysis-icon {
 			color:white;
 			width: 25%;
 		    float: left;
 			.fa {
-				font-size:32px;
-				padding:20px;
+				font-size:35px;
+				padding:23px;
 			}
 		}
 
 		.item-detail {
 			display: inline-block;
 			padding:5px;
+			width:70%;
+			color:white
+		}
+
+		.progress-bar{
+			width:100%;
+			height:4px;
+			background-color: darkgrey;
+			margin-top:10px;
+			margin-bottom:10px;
+		}
+		.bar {
+			background-color:white;
+			height:4px;
+
+		}
+		.inventory-bar {
+			width:20%;			
+		}
+		.download-bar {
+			width:50%;
+		}
+		.mention-bar{
+			width:70%;
+		}
+		.direct-bar {
+			width:90%;
 		}
 
 	}
