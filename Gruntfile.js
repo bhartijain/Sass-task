@@ -9,7 +9,7 @@ grunt.initConfig({
 				style: 'expaned'
 			},
 			files: {
-				'css/style.css': 'sass/style.scss'
+				'css/styles.css': 'sass/style.scss'
 			}
 		}
 	},
