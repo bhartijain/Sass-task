@@ -5,7 +5,6 @@
 
 .map-detail {
 	width:62%;
-	background-color:white;
 	display:inline-block;
 	.map-header {
 		border-top:5px solid;
@@ -33,7 +32,6 @@
 
 		.map-figure {
 			width:25.3%;
-			background-color: green;
 			color:white;
 			float:right;
 			ul {
@@ -51,12 +49,10 @@
 .analysis {
 	width:35%;
 	float:right;
-	.analysis-item-1 {
-		background-color:orange;
+	.analysis-item {
 		display:inline-block;
 		width:100%;
 		.analysis-icon {
-			background-color:darkorange;
 			color:white;
 			width: 25%;
 		    float: left;
@@ -72,67 +68,5 @@
 		}
 
 	}
-	.analysis-item-2 {
-		background-color:green;
-		display:inline-block;
-		width:100%;
-		.mention-icon {
-			background-color:darkgreen;
-			color:white;
-			width: 25%;
-		    float: left;
-			.fa {
-				font-size:32px;
-				padding:20px;
-			}
-		}
-
-		.item-detail {
-			display: inline-block;
-			padding:5px;
-		}
-
-	}
-	.analysis-item-3 {
-		background-color:red;
-		display:inline-block;
-		width:100%;
-		.download-icon {
-			background-color:darkred;
-			color:white;
-			width: 25%;
-		    float: left;
-			.fa {
-				font-size:32px;
-				padding:20px;
-			}
-		}
-
-		.item-detail {
-			display: inline-block;
-			padding:5px;
-		}
-
-	}
-	.analysis-item-4 {
-		background-color:skyblue;
-		display:inline-block;
-		width:100%;
-		.direct-icon {
-			background-color:darkskyblue;
-			color:white;
-			width: 25%;
-		    float: left;
-			.fa {
-				font-size:32px;
-				padding:20px;
-			}
-		}
-
-		.item-detail {
-			display: inline-block;
-			padding:5px;
-		}
-
-	}
+	
 }

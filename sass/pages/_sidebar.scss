@@ -91,7 +91,6 @@
 		.layout {
 			padding-top:10px;
 			div {
-				background-color: skyblue;
 			    height: 15px;
 			    width: 15px;
 			    float: right;
@@ -103,7 +102,6 @@
 			}
 		}
 		.widgets {
-			background-color:green;
 			height:13px;
 			width:26px;
 			float:right;
@@ -111,7 +109,6 @@
 		}
 		.calender {
 			float:right;
-			background-color:red;
 			margin-right:10px;
 			.fa {
 				color:white;
@@ -122,7 +119,6 @@
 		}
 		.mailbox {
 			float:right;
-			background-color:yellow;
 			margin-right:10px;
 			.fa {
 				color:white;
@@ -146,15 +142,7 @@
 		.important {
 			padding-top:10px;
 		}
-		.red-color{
-			color:red;
-		}
-		.orange-color {
-			color:orange;
-		}
-		.skyblue-color {
-			color:skyblue;
-		}
+		
 		
 	}
 }
