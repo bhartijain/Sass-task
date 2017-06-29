@@ -205,3 +205,23 @@
 	}
 
 }
+
+@media only screen and (max-width:1030px) {
+	.header {
+		.navbar {
+			.navbar-item {
+				margin-left:50%;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width:850px) {
+	.header {
+		.navbar {
+			.navbar-item {
+				margin-left:40%;
+			}
+		}
+	}
+}
