@@ -199,11 +199,152 @@
 }
 
 
-@media only screen and (min-width:320px) and (max-width:695px){
-	.sidebar {
-		display:block !important;
+@media only screen and (min-width:320px) and (max-width:767px){
+	.section1 {
+		.dashboard-version {
+			float:none;
+			text-align: center;
+			overflow:hidden;
+			h3 {
+				display:inline-block;
+				float:none;
+			}
+			span {
+				margin-left: 5px;
+			}
+		}
+		.home-dashboard {
+			float:none;
+			margin-right:0px;
+			margin-bottom: 10px;
+		}
+
 	}
 
+	.section2 {
+		.left-space {
+			margin-left:0px;
+		}
+		.section2-container {
+			width:48%;
+			margin-left:4px;
+			margin-bottom:5px;
+			.icon-section {
+				padding:10px;
+				font-size:20px;
+			}
+			.detail {
+				h4 {
+					font-size:10px;
+				}
+			}
+
+		}
+	}
+
+	.section3 {
+		.section3-header {
+			h3 {
+				font-size:15px;
+			}
+		}
+		.content {
+			.graph {
+				width:100%;
+				display:block;
+			}
+			.graph-detail {
+				width:100%;
+				float:none;
+				margin-bottom:10px;
+				.product-detail {
+					.name {
+						width:83%;
+					}
+					.bar {
+						height:5px;
+						.color{
+							height :5px;
+						}
+					}
+				}
+				.other-detail {
+					margin-top: 7px;
+				}
+			}
+			
+		}
+		.section3-footer {
+			div {
+				width:48%;
+				margin-bottom: 5px;
+			}
+			
+			h4 {
+				font-size:13px;
+			}
+		}
+	}
+
+	.section4 {
+		margin-top:10px;
+		.map-detail {
+			width:100%;
+		}
+		.map-header {
+			h3 {
+				font-size:13px;
+			}			
+		}
+		.map-content {
+			.map {
+				img {
+					height:262px;
+				}
+			}
+			.map-figure {
+				li {
+					padding:10px 0px 10px 0px;
+					.fa {
+						font-size:32px;
+					}
+				}
+			}
+		}
+		.analysis {
+			float:none;
+			width:100%;
+			margin-top:5px;
+			.bottom-space {
+				margin-bottom: 5px;
+			}
+		}
+
+	}
+	
+
+}
+
+@media only screen and (min-width:550px) and (max-width:767px) {
+	.section2 {
+		.section2-container{
+			width:45%;
+			margin-left:17px;
+			.icon-section {
+				padding:12px;
+				font-size:24x;
+				.fa {
+					padding-left:7px;
+				}
+
+			}
+			.detail {
+				h4 {
+					font-size:13px;
+				}
+			}
+		}
+	}
 }
 
 @media only screen and (max-width:1030px) {
@@ -221,6 +362,16 @@
 		.navbar {
 			.navbar-item {
 				margin-left:40%;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width:690px) {
+	.header{
+		.navbar{
+			.navbar-item{
+				margin-left:34%;
 			}
 		}
 	}
