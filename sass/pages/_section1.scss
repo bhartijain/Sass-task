@@ -35,24 +35,3 @@
 	}
 }
 
-@media only screen and (max-width:1023px) and (min-width:768px) {
-	.sidebar {
-		display:none;
-	}
-	.detail-page {
-		margin-left:0px;
-	}
-
-	.dashboard-version {
-		h3 {
-			font-size: 17px;
-		}
-		span {
-			font-size: 15px;
-		}
-	}
-	.home-dashboard {
-		padding-top:10px;
-	}
-
-}
